@@ -1,0 +1,25 @@
+body {
+  background: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.pixel {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(201, 201, 201);
+}
+.pixel:nth-of-type(2n) {
+  background-color: rgb(243, 243, 243);
+}
